@@ -1,0 +1,18 @@
+numeros = [10, 20, 30, 40, 50, 60]
+print(f'Lista numeros antes de modificações: {numeros}')
+numeros.count(5)
+print(f'Lista numeros do count{numeros.count(5)}')
+numeros.pop()
+print(f'Lista numeros após o uso de numeros.pop(): {numeros}')
+numeros.pop()
+print(f'Lista numeros após o uso novamente de numeros.pop(): {numeros}')
+numeros.pop(0)
+print(f'Lista numeros após o uso de numeros.pop(0): {numeros}')
+numeros.pop(2)
+print(f'Lista numeros após o uso de numeros.pop(): {numeros}')
+numeros.clear()
+print(f'Lista numeros após o uso de final com o clear: {numeros}')
+numeros.count(5)
+print(f'Lista numeros após o uso de final com o clear: {numeros}')
+numeros.count(5)
+
